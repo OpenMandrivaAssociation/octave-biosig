@@ -2,14 +2,13 @@
 
 Summary:	Biomedical signal processing tools
 Name:		octave-biosig
-Version:	2.4.3
+Version:	2.5.2
 Release:	1
 License:	GPLv3+
 Group:		Sciences/Mathematics
 Url:		https://packages.octave.org/biosig/
-Source0:	https://pub.ist.ac.at/~schloegl/biosig/prereleases/biosig4octave-%{version}.src.tar.gz
-
-BuildRequires:  octave-devel >= 3.0.0
+Source0:	https://downloads.sourceforge.net/biosig/biosig4octave-%{version}.src.tar.gz
+BuildRequires:  octave-devel >= 3.2.0
 BuildRequires:  pkgconfig(libbiosig)
 
 Requires:	octave(api) = %{octave_api}
