@@ -2,7 +2,7 @@
 
 Summary:	Biomedical signal processing tools
 Name:		octave-biosig
-Version:	2.5.2
+Version:	2.6.0
 Release:	1
 License:	GPLv3+
 Group:		Sciences/Mathematics
